@@ -1,0 +1,25 @@
+{
+  "resourceType": "Observation",
+  "id": "Patient-1002-heartRate",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "8867-4",
+        "display": "Heart rate"
+      }
+    ],
+    "text": "Heart rate"
+  },
+  "subject": {
+    "reference": "Patient-1002"
+  },
+  "effectiveDateTime": "2025-05-11T13:24:02.707208",
+  "valueQuantity": {
+    "value": 75.0,
+    "unit": "beats/minute",
+    "system": "http://unitsofmeasure.org",
+    "code": "beats/minute"
+  }
+}

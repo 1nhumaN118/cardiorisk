@@ -1,0 +1,25 @@
+{
+  "resourceType": "Observation",
+  "id": "Patient-1001-glucose",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "2345-7",
+        "display": "Glucose"
+      }
+    ],
+    "text": "Glucose"
+  },
+  "subject": {
+    "reference": "Patient-1001"
+  },
+  "effectiveDateTime": "2025-05-11T13:24:02.701878",
+  "valueQuantity": {
+    "value": 76.0,
+    "unit": "mg/dL",
+    "system": "http://unitsofmeasure.org",
+    "code": "mg/dL"
+  }
+}

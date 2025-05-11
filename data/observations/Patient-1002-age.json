@@ -1,0 +1,25 @@
+{
+  "resourceType": "Observation",
+  "id": "Patient-1002-age",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "30525-0",
+        "display": "Age calculated"
+      }
+    ],
+    "text": "Age calculated"
+  },
+  "subject": {
+    "reference": "Patient-1002"
+  },
+  "effectiveDateTime": "2025-05-11T13:24:02.703653",
+  "valueQuantity": {
+    "value": 48.0,
+    "unit": "years",
+    "system": "http://unitsofmeasure.org",
+    "code": "years"
+  }
+}

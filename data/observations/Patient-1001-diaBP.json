@@ -1,0 +1,25 @@
+{
+  "resourceType": "Observation",
+  "id": "Patient-1001-diaBP",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "8462-4",
+        "display": "Diastolic blood pressure"
+      }
+    ],
+    "text": "Diastolic blood pressure"
+  },
+  "subject": {
+    "reference": "Patient-1001"
+  },
+  "effectiveDateTime": "2025-05-11T13:24:02.700224",
+  "valueQuantity": {
+    "value": 81.0,
+    "unit": "mmHg",
+    "system": "http://unitsofmeasure.org",
+    "code": "mmHg"
+  }
+}

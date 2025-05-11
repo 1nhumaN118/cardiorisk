@@ -1,0 +1,25 @@
+{
+  "resourceType": "Observation",
+  "id": "Patient-1001-totChol",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "2093-3",
+        "display": "Total Cholesterol"
+      }
+    ],
+    "text": "Total Cholesterol"
+  },
+  "subject": {
+    "reference": "Patient-1001"
+  },
+  "effectiveDateTime": "2025-05-11T13:24:02.701100",
+  "valueQuantity": {
+    "value": 250.0,
+    "unit": "mg/dL",
+    "system": "http://unitsofmeasure.org",
+    "code": "mg/dL"
+  }
+}

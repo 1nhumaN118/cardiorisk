@@ -1,0 +1,25 @@
+{
+  "resourceType": "Observation",
+  "id": "Patient-1002-sysBP",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "8480-6",
+        "display": "Systolic blood pressure"
+      }
+    ],
+    "text": "Systolic blood pressure"
+  },
+  "subject": {
+    "reference": "Patient-1002"
+  },
+  "effectiveDateTime": "2025-05-11T13:24:02.704427",
+  "valueQuantity": {
+    "value": 127.5,
+    "unit": "mmHg",
+    "system": "http://unitsofmeasure.org",
+    "code": "mmHg"
+  }
+}
