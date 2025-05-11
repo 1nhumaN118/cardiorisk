@@ -1,4 +1,4 @@
-#  CardioRisk-XAI
+#  CardioRisk
 
 A reproducible prototype to predict 10-year cardiovascular risk using structured health data (Framingham dataset), with transparent explainability using SHAP.
 
