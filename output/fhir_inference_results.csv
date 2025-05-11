@@ -1,0 +1,4 @@
+patient,age,sysBP,diaBP,totChol,glucose,predicted_risk
+Patient-1000,39.0,106.0,70.0,195.0,77.0,0.103579134
+Patient-1001,46.0,121.0,81.0,250.0,76.0,0.12507127
+Patient-1002,48.0,127.5,80.0,245.0,70.0,0.1354342
