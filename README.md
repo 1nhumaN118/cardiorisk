@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #  CardioRisk AI App
+=======
+#  CardioRisk
+>>>>>>> d011af8a28f14f01d20e3fdfcc085600922763c6
 
 CardioRisk is an end-to-end Machine Learning app to estimate the 10-year cardiovascular risk using basic clinical features (e.g., age, blood pressure, cholesterol). It integrates a trained XGBoost model with a simple Streamlit user interface, supports FHIR-formatted data, and offers both visual explanations and Docker-based deployment.
 
@@ -75,3 +79,8 @@ cardiorisk_app/
 
 Built by a medical data science specialist aiming to integrate AI with real-world clinical workflows. Suitable for research, demo, or MedTech applications.
 
+<<<<<<< HEAD
+=======
+# Launch notebook
+jupyter notebook
+>>>>>>> d011af8a28f14f01d20e3fdfcc085600922763c6
